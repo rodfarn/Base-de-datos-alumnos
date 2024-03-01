@@ -1,0 +1,67 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: monospace;
+    background-color: #3a3939;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+button {
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(220.55deg, #3ae606 0%, #197dff 100%);
+    color: white;
+    border-radius: 5px;
+    width: 30%;
+    z-index: 1;
+    box-sizing: content-box;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.titulo {
+    color: white;
+    font-size: 300%;
+    position: absolute;
+    z-index: 2;
+    width: 60%;
+    height: 40%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.4);
+    object-fit: cover;
+    object-position: top;
+}
+
+#resultados {
+    margin-top: 20px;
+}
+
+.alumno {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
